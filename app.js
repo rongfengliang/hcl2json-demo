@@ -33,4 +33,8 @@ foo "bar" {
 `
 var result = hcltojson(platform_config)
 
+//var info = result.resource.k8s_app_config.tennant_110.config_content
+
+//console.log(info)
+
 console.log(JSON.stringify(result))
