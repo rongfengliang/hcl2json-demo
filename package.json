@@ -1,9 +1,22 @@
 {
   "name": "hcl-json",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
+  "bin": "app.js",
   "license": "MIT",
   "dependencies": {
     "hcl-to-json": "^0.1.1"
+  },
+  "pkg": {
+    "scripts": [
+      "app.js"
+    ]
+  },
+  "scripts": {
+    "m": "node app",
+    "p": "pkg ."
+  },
+  "devDependencies": {
+    "pkg": "^4.3.7"
   }
 }

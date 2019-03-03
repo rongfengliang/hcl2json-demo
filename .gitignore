@@ -1,2 +1,5 @@
 node_modules/**
 yarn.lock
+hcl-json-linux
+hcl-json-macos
+hcl-json-win.exe
